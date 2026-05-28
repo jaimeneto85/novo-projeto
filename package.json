@@ -1,0 +1,27 @@
+{
+  "name": "novo-projeto",
+  "version": "1.0.0",
+  "description": "este é só um projeto de demonstração",
+  "homepage": "https://github.com/jaimeneto85/novo-projeto#readme",
+  "engines": {
+    "node": ">=24"
+  },
+  "bugs": {
+    "url": "https://github.com/jaimeneto85/novo-projeto/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaimeneto85/novo-projeto.git"
+  },
+  "license": "ISC",
+  "author": "@jaimeneto85",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
